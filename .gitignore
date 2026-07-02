@@ -1,0 +1,50 @@
+ # Simulation output
+*.vcd
+*.fst
+*.wlf
+*.log
+
+# Build directories
+sim_build/
+build/
+obj_dir/
+
+# Verilator
+*.d
+*.o
+*.a
+*.so
+
+# Icarus Verilog
+a.out
+
+# ModelSim / Questa
+transcript
+vsim.wlf
+work/
+
+# Xilinx Vivado
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.runs/
+.Xil/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
